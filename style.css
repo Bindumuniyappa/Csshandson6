@@ -1,0 +1,373 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+       background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-attachment: fixed;
+        
+ } */
+ /* section{
+    border: 2px solid red;
+    position:relative;
+   
+
+}  */
+.container{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid black; */
+    position: relative;
+
+}
+.nav-section{
+    position: absolute;
+}
+.logo{
+    position: absolute;
+    top:20px ;
+    left: 200px;
+    
+    
+}
+.bg-image{
+    background-repeat:repeat;
+    background-position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.nav-bar1{
+    position:absolute;
+    top: 40px;
+    left: 1000px;
+    color: rgb(96, 26, 26);
+    cursor: pointer;
+
+}
+.nav-bar2 {
+    position: absolute;
+    top: 40px;
+    left: 1100px;
+    color: rgb(30, 178, 107);
+    cursor: pointer;
+}
+.nav-bar3 {
+    position: absolute;
+    top: 40px;
+    left: 1200px;
+    color: rgb(16, 29, 128);
+    cursor: pointer;
+}
+.nav-bar4 {
+    position: absolute;
+    top: 30px;
+    left: 1300px;
+    color: rgb(175, 15, 124);
+    cursor: pointer;
+}
+.cards-container{
+    width: 550px;
+    height: 550px;
+    /* border: 5px solid black; */
+    position: absolute;
+    top: 160px;
+    left: 750px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 20px;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    /* align-items:center; */
+    /* flex-wrap: wrap; */
+    /* display: grid;
+    grid-template-rows: 250px; */
+    /* grid-template-columns: 250px; */
+
+}
+/* .card{
+    width:250px;
+    height: 250px;
+    object-fit: cover;
+    
+}  */
+.card1{
+    width: 250px;
+    height: 250px;
+    position: relative;
+     /* border: 1px solid black; */
+    border-radius: 8px;
+    object-fit: cover;
+    cursor: pointer;
+    transition-duration: 1s;
+    /* background-color: aqua; */
+    
+ } 
+.card2 {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 1s;
+    /* background-color: aqua; */
+
+ }
+.card3 {
+     width: 250px;
+    height: 250px;
+    position: relative;
+    /* border: 1px solid black; */
+    border-radius: 8px; 
+    cursor: pointer;
+    transition-duration: 1s;
+    /* background-color: aqua; */
+
+ }
+.card4 {
+     width: 250px;
+    height: 250px;
+    position: relative;
+    /* border: 1px solid black; */
+    border-radius: 8px; 
+    cursor: pointer;
+    transition-duration: 1s;
+    /* background-color: aqua; */
+
+ } 
+ .card1:hover{
+    transform: scale(1.1);
+    z-index: 2;
+ }
+ .card2:hover {
+     transform: scale(1.1);
+     z-index: 2;
+ }
+ .card3:hover {
+     transform: scale(1.1);
+     z-index: 2;
+ }
+ .card4:hover {
+     transform: scale(1.1);
+     z-index: 2;
+ }
+ .saharaText{
+    /* width: 300px;
+    height: 100px; */
+    font-size: 100px;
+    font-weight: bolder;
+    color: white;
+    /* border: 1px solid black; */
+    position:absolute;
+    top: 280px;
+    left: 150px;
+ }
+.text1{
+    position:absolute;
+    top: 400px;
+    left: 150px;
+    color: white;
+    line-height: 23px;
+    
+}
+.exploretab{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    text-align: center;
+}
+.textexplore{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+@media (min-width:360px) and (max-width:855px){
+    .container{
+        /* position: relative; */
+       /* width: 100%;
+       height: 100%; */
+    }
+    .nav-bar1{
+        /* position: absolute; */
+            top: 30px;
+            left: 350px;
+    }
+    .nav-bar2{
+        /* position: absolute; */
+            top: 50px;
+            left: 350px;
+    }
+    .nav-bar3{
+        /* position: absolute; */
+            top: 70px;
+            left: 350px;
+    }
+    .nav-bar4{
+        /* position: absolute; */
+            top: 30px;
+            left: 450px;
+    }
+    .logo{
+        top: 20px;
+            left: 100px;
+    }
+    .saharaText{
+        top: 150px;
+        left: 100px;
+        font-size: 60px;
+
+    }
+    .text1{
+        top: 220px;
+        left: 100px;
+        font-size: 15px;
+        
+    }
+    .exploretab{
+        top: 350px;
+        left: 150px;
+        width: 150px;
+        height: 30px;
+        
+    }
+    .textexplore{
+        font-size: 10px;
+        top: 5px;
+    }
+    .cards-container{
+        width: 50%;
+        height: 50%;
+        top: 400px;
+        left: 100px;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        margin-left: 100px;
+    
+
+    }
+        .card1 {
+            width: 200px;
+            height: 200px;
+        }
+    
+        .card2 {
+            width: 200px;
+            height: 200px;
+        }
+    
+        .card3 {
+            width: 200px;
+            height: 200px;
+        }
+    
+        .card4 {
+            width: 200px;
+            height: 200px;
+        }
+    /* #bg-image{
+        height: auto;
+    } */
+        
+}
+@media (min-width:856px) and (max-width:950px) {
+    .container {
+        /* position: relative; */
+        /* width: 1000;
+        height: 1000; */
+    }
+
+    .nav-bar1 {
+        /* position: absolute; */
+        top: 30px;
+        left: 750px;
+    }
+
+    .nav-bar2 {
+        /* position: absolute; */
+        top: 30px;
+        left: 850px;
+    }
+
+    .nav-bar3 {
+        /* position: absolute; */
+        top: 30px;
+        left: 950px;
+    }
+
+    .nav-bar4 {
+        /* position: absolute; */
+        top: 20px;
+        left: 1050px;
+    }
+
+    .logo {
+        top: 20px;
+        left: 100px;
+    }
+
+    .saharaText {
+        top: 150px;
+        left: 100px;
+        font-size: 60px;
+
+    }
+
+    .text1 {
+        top: 220px;
+        left: 100px;
+        font-size: 15px;
+
+    }
+
+    .exploretab {
+        top: 300px;
+        left: 150px;
+        width: 150px;
+        height: 30px;
+
+    }
+
+    .textexplore {
+        font-size: 10px;
+        top: 5px;
+    }
+
+    .cards-container {
+        width: 50%;
+        height: 50%;
+        top: 650px;
+        left: 100px;
+        grid-template-columns: repeat(1,1fr );
+        padding-left:500px ;
+
+
+    }
+
+    /* #bg-image {
+        height: auto;
+    } */
+    .card1{
+        width: 500px;
+        height: 200px;
+    }
+    .card2 {
+            width: 500px;
+            height: 200px;
+    }
+    .card3 {
+            width: 500px;
+            height: 200px;
+    }
+    .card4 {
+            width: 500px;
+            height: 200px;
+    }
+
+}
